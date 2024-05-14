@@ -12,8 +12,13 @@
             "email": "code@nicholasbarr.net"
         }
     ],
+    "repositories": [
+        { "type": "git", "url": "https://github.com/bearlovescode/datamodels.git"}
+    ],
     "require": {
-        "illuminate/support": "10.48"
+        "illuminate/support": "^10.48",
+        "illuminate/http": "^10.48",
+        "bearlovescode/datamodels": "^1.1.0"
     },
     "extra": {
         "laravel": {
