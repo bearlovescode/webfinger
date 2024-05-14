@@ -10,7 +10,6 @@
         }
 
         public function boot() {
-            $route = __DIR__ . '../../../routes/web.php';
-            $this->loadRoutesFrom(__DIR__ . '');
+            $this->loadRoutesFrom(__DIR__ . '/../../routes/web.php');
         }
     }
