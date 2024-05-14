@@ -1,0 +1,26 @@
+{
+    "name": "bearlovescode/webfinger",
+    "type": "library",
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Bearlovescode\\Webfinger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nic Barr",
+            "email": "code@nicholasbarr.net"
+        }
+    ],
+    "require": {
+        "illuminate/support": "10.48"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bearlovescode\\Webfinger\\Providers\\WebfingerServiceProvider"
+            ]
+        }
+    }
+}
