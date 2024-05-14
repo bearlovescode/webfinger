@@ -7,5 +7,8 @@
 
     class WebfingerController
     {
-
+            public function __invoke()
+            {
+                return null;
+            }
     }
